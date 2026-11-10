@@ -10,7 +10,7 @@ img{
 }
 
 .background{
-    background-image: url("./asserts/bg2.jpg");
+    background-image: url("./asserts/vivin.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,7 +282,7 @@ justify-content: space-around;
  }
 .school_image:hover{
      border-radius: 13%;
-    background-image: linear-gradient(rgba(194, 192, 192, 0.638)), url(./asserts/school.jpg);
+    background-image: linear-gradient(rgba(194, 192, 192, 0.638)), url(./asserts/LMS\ School.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 320px;
@@ -292,7 +292,7 @@ justify-content: space-around;
 .college_image:hover{
     
        border-radius: 13%;
-    background-image: linear-gradient(rgba(186, 184, 184, 0.638)), url(./asserts/college.jpg);
+    background-image: linear-gradient(rgba(186, 184, 184, 0.638)), url(./asserts/Uthaya_College.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 320px;
