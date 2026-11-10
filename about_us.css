@@ -1,0 +1,310 @@
+
+/* =========================
+   GLOBAL CSS
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* =========================
+   BACKGROUND
+========================= */
+
+.background {
+    background-image: url("./asserts/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.color {
+    background-color: rgba(0, 0, 0, 0.65);
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 100%;
+}
+
+.anime img {
+    width: 100px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.anime_para {
+    font-size: 19px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    font-weight: 600;
+}
+
+.anime_para a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.anime_para a:hover {
+    color: #fc6060;
+    text-decoration: underline;
+}
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about_us {
+    min-height: calc(100vh - 70px);
+    display: grid;
+    grid-template-columns: 45% 35%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 0;
+}
+
+/* =========================
+   CONTENT BOX SHADOW
+========================= */
+
+.about_content {
+    padding: 35px;
+    background: rgba(10, 10, 10, 0.68);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.4),
+        0 0 15px rgba(255, 255, 255, 0.04);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+/* =========================
+   ABOUT TITLE
+========================= */
+
+.about_title {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.about_title span {
+    color: #fc6060;
+}
+
+/* =========================
+   ABOUT PARAGRAPH
+========================= */
+
+.lorem_para {
+    padding: 15px 0;
+    font-size: 19px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.lorem_para2 {
+    padding-bottom: 25px;
+    font-size: 19px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* =========================
+   CONTACT BUTTON
+========================= */
+
+.call {
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #fc6060;
+    border-radius: 60px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.call i {
+    margin-left: 8px;
+}
+
+.call:hover {
+    background-color: #fc6060;
+    color: white;
+    box-shadow: 0 0 15px rgba(252, 96, 96, 0.5);
+}
+
+/* =========================
+   MODEL IMAGE
+   NO BOX SHADOW
+========================= */
+
+.about_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.about_image img {
+    width: 100%;
+    height: 480px;
+    object-fit: contain;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media screen and (max-width: 426px) {
+
+    .background {
+        background-attachment: scroll;
+    }
+
+    .anime_para {
+        display: none;
+    }
+
+    .about_us {
+        grid-template-columns: 90%;
+        gap: 35px;
+        padding: 45px 0;
+    }
+
+    .one {
+        order: 1;
+    }
+
+    .about_image {
+        order: 2;
+    }
+
+    .about_content {
+        padding: 25px;
+    }
+
+    .about_title {
+        font-size: 32px;
+    }
+
+    .lorem_para,
+    .lorem_para2 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .about_image img {
+        height: auto;
+        max-height: 400px;
+    }
+}
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+
+    .background {
+        background-attachment: scroll;
+    }
+
+    .anime_para {
+        font-size: 15px;
+        gap: 25px;
+    }
+
+    .about_us {
+        grid-template-columns: 85%;
+        gap: 40px;
+        padding: 50px 0;
+    }
+
+    .about_content {
+        padding: 30px;
+    }
+
+    .about_image img {
+        height: 420px;
+    }
+}
+
+/* =========================
+   LAPTOP RESPONSIVE
+========================= */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .anime_para {
+        gap: 35px;
+        font-size: 16px;
+    }
+
+    .about_us {
+        grid-template-columns: 42% 42%;
+        gap: 30px;
+    }
+
+    .about_content {
+        padding: 25px;
+    }
+
+    .about_title {
+        font-size: 35px;
+    }
+
+    .lorem_para,
+    .lorem_para2 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .about_image img {
+        height: 420px;
+    }
+}

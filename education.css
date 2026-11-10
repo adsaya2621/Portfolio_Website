@@ -1,0 +1,425 @@
+
+/* ==============================
+   COMMON SETTINGS
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ==============================
+   BACKGROUND
+================================ */
+
+.background {
+    background-image: url("./asserts/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.color {
+    background-color: rgba(0, 0, 0, 0.72);
+    min-height: 100vh;
+}
+
+
+/* ==============================
+   NAVBAR
+================================ */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.anime img {
+    width: 100px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.anime_para {
+    font-size: 19px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    font-weight: 600;
+}
+
+.anime_para a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.anime_para a:hover {
+    color: #fc6060;
+    text-decoration: underline;
+}
+
+.anime_para span {
+    cursor: pointer;
+}
+
+
+/* ==============================
+   EDUCATION SECTION
+================================ */
+
+.education {
+    padding: 100px 0 120px;
+}
+
+.education_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu_title {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+/* ==============================
+   EDUCATION GRID
+================================ */
+
+.studies {
+    margin-top: 85px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 26%);
+    gap: 40px;
+
+    justify-content: center;
+}
+
+.education_grid {
+    width: 100%;
+}
+
+
+/* ==============================
+   EDUCATION IMAGE CARDS
+================================ */
+
+.school_image,
+.college_image,
+.alo_image {
+
+    width: 100%;
+    height: 360px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 55px;
+
+    transition: all 0.5s ease;
+}
+
+
+/* ==============================
+   GLASSMORPHISM BOX
+================================ */
+
+.school_content {
+
+    width: 100%;
+    height: 360px;
+
+    border-radius: 55px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    gap: 8px;
+
+    padding: 10px;
+
+    /* Glass Background */
+
+    background: rgba(0, 0, 0, 0.35);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    /* Glass Border */
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    /* White Glow Shadow */
+
+    box-shadow:
+        0px 15px 25px rgba(255, 255, 255, 0.20),
+        0px 25px 40px rgba(255, 255, 255, 0.12),
+        inset 0px 0px 20px rgba(255, 255, 255, 0.03);
+
+    transition: all 0.5s ease;
+}
+
+
+/* ==============================
+   HOVER EFFECT
+================================ */
+
+.school_content:hover {
+
+    transform: translateY(-10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    box-shadow:
+        0px 15px 30px rgba(255, 255, 255, 0.35),
+        0px 25px 45px rgba(255, 255, 255, 0.20),
+        inset 0px 0px 25px rgba(255, 255, 255, 0.08);
+}
+
+
+/* ==============================
+   CARD ICONS
+================================ */
+
+.school_icons {
+
+    font-size: 65px;
+    color: #fc6060;
+
+    transition: all 0.4s ease;
+}
+
+
+/* ==============================
+   CARD TEXT
+================================ */
+
+.school_para {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sec {
+
+    font-size: 22px;
+    font-weight: 700;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sec_name {
+
+    font-size: 16px;
+    font-weight: 600;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sec_year {
+
+    font-size: 19px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* ==============================
+   SCHOOL HOVER IMAGE
+================================ */
+
+.school_image:hover {
+
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.25)),
+        url("./asserts/school.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ==============================
+   COLLEGE HOVER IMAGE
+================================ */
+
+.college_image:hover {
+
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.25)),
+        url("./asserts/college.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ==============================
+   COURSE HOVER IMAGE
+================================ */
+
+.alo_image:hover {
+
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.25)),
+        url("./asserts/alo.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ==============================
+   IMAGE HOVER TEXT
+================================ */
+
+.school_image:hover .school_content,
+.college_image:hover .school_content,
+.alo_image:hover .school_content {
+
+    background: rgba(255, 255, 255, 0.45);
+
+    backdrop-filter: blur(5px);
+
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.school_image:hover .school_content *,
+.college_image:hover .school_content *,
+.alo_image:hover .school_content * {
+
+    color: #111 !important;
+}
+
+
+/* ==============================
+   TABLET RESPONSIVE
+================================ */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .anime_para {
+        font-size: 15px;
+        gap: 30px;
+    }
+
+    .studies {
+        grid-template-columns: repeat(2, 42%);
+        gap: 35px;
+    }
+
+    .school_image,
+    .college_image,
+    .alo_image,
+    .school_content {
+        height: 320px;
+    }
+
+    .education {
+        padding-top: 80px;
+    }
+
+}
+
+
+/* ==============================
+   MOBILE RESPONSIVE
+================================ */
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        justify-content: center;
+    }
+
+    .anime_para {
+        display: none;
+    }
+
+    .studies {
+        grid-template-columns: 80%;
+        gap: 35px;
+        margin-top: 50px;
+    }
+
+    .education {
+        padding: 60px 0 80px;
+    }
+
+    .edu_title {
+        font-size: 35px;
+    }
+
+    .school_image,
+    .college_image,
+    .alo_image,
+    .school_content {
+        height: 320px;
+    }
+
+}
+
+
+/* ==============================
+   SMALL MOBILE
+================================ */
+
+@media screen and (max-width: 426px) {
+
+    .studies {
+        grid-template-columns: 88%;
+        gap: 30px;
+    }
+
+    .edu_title {
+        font-size: 30px;
+    }
+
+    .school_image,
+    .college_image,
+    .alo_image,
+    .school_content {
+        height: 300px;
+        border-radius: 35px;
+    }
+
+    .school_icons {
+        font-size: 55px;
+    }
+
+    .sec {
+        font-size: 20px;
+    }
+
+    .sec_year {
+        font-size: 17px;
+    }
+
+}

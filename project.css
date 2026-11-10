@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.background{
+    background-image: url("./asserts/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    object-fit: cover;
+}
+.color{
+    background-color: rgba(0, 0, 0, 0.737);
+    height: 110vh;
+}
+.navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.422);
+}
+.anime{
+    /* border: 1px solid red; */
+}
+.anime img{
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 24px;
+}
+.anime_para{
+    font-size: 19px;
+    color: white;
+    display: flex;
+    gap: 80px;
+   
+    font-weight: 600;
+}
+
+.anime_para a{
+    color: white;
+    text-decoration: none;
+}
+.anime_para a:hover{
+  color: rgb(255, 111, 0);
+text-decoration: underline;
+}
+
+.content{
+    /* border: 1px solid red; */
+    height: 90%;
+   
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.content_para{
+     /* border: 1px solid red; */
+    
+     width: 600px;
+}
+.content_title{
+  color: white;
+ 
+  font-weight: 600;
+  font-size: 70px;
+}
+.full_stack{
+     color: white;
+     font-size: 20px;
+     padding: 10px 0px 15px 0px;
+     line-height: 26px;
+}
+.download{
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 60px;
+    border: 2px solid #fc6060;
+    background-color:#00000000;
+    letter-spacing: 1px;
+}
+
+.download:hover{
+    background-color: #fc6060;
+    color: black;
+}
+.about_us{
+    /* border: 1px solid red; */
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 35% 30%;
+    justify-content: center;
+    gap: 70px;
+    
+}
+.about_content{
+     /* border: 1px solid green; */
+}
+.about_title{
+    font-size: 35px;
+  font-weight: 600;
+  
+}
+.lorem_para{
+    padding: 20px 0px;
+    font-size: 19px;
+    line-height: 25px;
+}
+.lorem_para2{
+    padding: 0px 0px 20px 0px;
+    font-size: 19px;
+    line-height: 25px;
+}
+.call{
+    padding: 10px 20px;
+    font-size: 14px;
+   
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border: 2px solid #fc6060;
+    border-radius: 60px;
+     letter-spacing: 1px;
+}
+.call:hover{
+    background-color: #fc6060;
+    color: white;
+    
+}
+.box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+}
+.box img{
+    border-radius: 20px;
+}
+
+.three{
+    /* border: 1px solid red; */
+     margin-top: 100px;
+}
+.skills{
+   
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    gap: 40px;
+    /* padding: 20px 0px 0px 0px; */
+}
+.skill_title{
+    color: rgb(11, 11, 11);
+    font-size: 45px;
+   
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+.necessary{
+    
+    color: rgb(2, 2, 2);
+  
+}
+.skills_grid{
+  /* border: 1px solid red; */
+  margin: 80px 0px 60px 0px;
+  display: grid;
+  grid-template-columns: 21% 21% 21%;
+  gap: 35px;
+  justify-content: center;
+  
+ 
+}
+.skills_content{
+     /* border: 1px solid green; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 40px 12px 30px 15px;
+   transition: transform 0.8s;
+}
+.skill_icon{
+    font-size: 30px;
+    color: #e70707;
+}
+.lorem_title{
+    padding-top: 10px;
+      font-size: 25px;
+      font-weight: 600;
+      color: #0b0b0b;
+}
+.lorem_grey{
+    padding: 15px 0px;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(19, 18, 18, 0.704);
+}
+.skills_content:hover{
+  background-color: #fc6060;
+  transform: translateY(-10px);
+}
+.skills_content:hover .white{
+    color: white !important;
+}
+
+.four{
+    /* border: 1px solid red; */
+    /* margin-top: 70px; */
+    background-color: #060606;
+}
+.main{
+    padding: 30px 0px;
+/* border: 1px solid rgb(27, 25, 25); */
+display: flex;
+justify-content: space-around;
+
+}
+.iconss{
+    display: flex;
+    gap: 80px;
+}
+.contact_title{
+    font-size: 20px;
+    color: rgb(252, 251, 251);
+   
+    font-weight: 600;
+}
+.four_icons{
+     font-size: 25px;
+     color: white;
+}
+.contact_title:hover{
+    color: #fc6060;
+}
+
+.four_icons a{
+    color: white;
+}
+.four_icons a:hover{
+    color: #fc6060;
+}
+
+.education{
+    /* border: 1px solid red; */
+  margin-top: 100px;
+}
+ .education_title{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+ }
+ .edu_title{
+    font-size: 40px;
+    font-weight: 600;
+   
+ }
+.studies{
+    /* border: 1px solid yellow; */
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 24% 24% 24%;
+    gap: 40px;
+    justify-content: center;
+   
+}
+/* .education_grid{
+  border: 1px solid green;
+} */
+ .school_image:hover .school_content{
+    color: rgb(18, 18, 18) !important;
+ }
+.school_image:hover{
+     border-radius: 13%;
+    background-image: linear-gradient(rgba(194, 192, 192, 0.638)), url(./asserts/school.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    width: 365px;
+  
+}
+.college_image:hover{
+    
+       border-radius: 13%;
+    background-image: linear-gradient(rgba(186, 184, 184, 0.638)), url(./asserts/college2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    width: 365px;
+    
+}
+.alo_image:hover{
+      border-radius: 13% ;
+    background-image: linear-gradient(rgba(206, 204, 204, 0.638)), url(./asserts/hub.jpg) ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    height: 320px;
+    width: 365px;
+  color: white;
+    
+}
+.school_icons{
+    font-size: 80px;
+    color: #fc6060;
+}
+
+.school_content{
+    /* border: 1px solid orangered; */
+    /* background-color: #fc6060ae; */
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    height: 320px;
+    border-radius: 13%;
+    color: rgb(18, 17, 17);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    padding: 10px 0px 0px 0px;
+   
+}
+.school_para{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sec{
+    font-size: 20px;
+    
+    font-weight: 600;
+}
+.sec_name{
+    
+    font-weight: 600;
+}
+.sec_year{
+    
+    font-size: 18px;
+}
+.project{
+    /* border: 1px solid red; */
+    /* background-color: #f4f1f1; */
+   margin: 100px 0px 0px 0px;
+   
+}
+.project_title{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    padding: 40px 0px 0px 0px;
+}
+.my{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.project_grid{
+    padding: 110px 0px 90px 0px;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: 35% 35%;
+    justify-content: center;
+    gap: 40px;
+  
+}
+/* .green{
+ border: 1px solid rgb(255, 30, 0);
+} */
+
+.clothing_title{
+    text-align: center;
+     font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 34px;
+    color: white;
+}
+.clothing_para{
+    color: rgba(255, 255, 255, 0.641);
+    line-height: 27px;
+    font-size: 17px;
+}
+
+.view_project{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding: 30px 0px 0px 0px;
+    /* border: 1px solid red; */
+}
+.green video{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.big{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.641);
+}
+.span_icons{
+ /* border: 1px solid red; */
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+color: rgba(255, 255, 255, 0.641);
+}
+.git{
+    text-decoration: none;
+    color: black;
+    color: rgba(255, 255, 255, 0.641);
+
+}
+.git_title{
+    color: #fc6060;
+    font-size: 19px;
+    font-weight: 600;
+}
+/* .one{
+    border: 1px solid red;
+} */
+
+
+
+
+
+
+@media screen and (max-width: 426px){
+    .about_us{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    .one{order: 2;}
+    .box{order: 1;}
+
+    .skills{
+        
+        text-align: center;
+    }
+    .skills_grid{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    .contact_title{
+        display: none;
+    }
+    .iconss{
+        gap: 70px;
+    }
+    .anime_para{
+        display: none;
+    }
+    .project_grid{
+        display: grid;
+        grid-template-columns: 85%;
+    }
+    .green{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .green video{
+        
+       width: 320px;
+    }
+   
+    .studies{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .about_us{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    .skills_grid{
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+    .anime img{
+    /* border: 1px solid red; */
+    width: 80px;
+    height: 20px;
+    }
+    .anime_para{
+        font-size: 15px;
+        gap: 35px;
+    }
+    .project_grid{
+        display: grid;
+        grid-template-columns: 85%;
+    }
+    .green video{
+        
+      width: 649px;
+    }
+    .clothing_para{
+        text-align: center;
+    }
+
+    .studies{
+        display: grid;
+        grid-template-columns: 42% 42%;
+    }
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .about_us{
+        display: grid;
+        grid-template-columns: 40% 45%;
+    }
+    .skills_grid{
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+    .project_grid{
+        display: grid;
+        grid-template-columns: 40% 40%;
+    
+    }
+    .green video{
+       
+       width: 420px;
+    }
+    .clothing_para{
+        line-height: 22px;
+        text-align: center;
+    }
+    .view_project{
+        padding-top: 10px;
+    }
+    .clothing_title{
+        padding-bottom: 20px;
+    }
+   
+    .studies{
+        display: grid;
+        grid-template-columns: 44% 44%;
+    }
+}
+

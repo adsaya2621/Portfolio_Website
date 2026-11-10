@@ -1,0 +1,602 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adsaya | Full Stack Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+</head>
+
+<body>
+
+    <!-- HOME SECTION -->
+    <div class="background" id="home">
+
+        <div class="color">
+
+            <!-- NAVBAR -->
+            <div class="navbar">
+
+                <div class="anime">
+                    <img src="./asserts/logo.jpg" alt="Logo">
+                </div>
+
+                <div class="anime_para">
+
+                    <p><a href="./index.html" target="_blank">HOME</a></p>
+
+                    <p><a href="./about_us.html" target="_blank">ABOUT ME</a></p>
+
+                    <p><a href="./education.html" target="_blank">EDUCATION</a></p>
+
+                    <p><a href="./skills.html" target="_blank">SKILLS</a></p>
+
+                    <p><a href="./project.html" target="_blank">PROJECT</a></p>
+
+                    <p><a href="./contact.html" target="_blank">CONTACT</a></p>
+
+                    <span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- HOME CONTENT -->
+            <div class="content">
+
+                <div class="content_para">
+
+                    <div data-aos="fade-up" data-aos-duration="3000">
+
+                        <p class="content_title">HELLO</p>
+
+                        <p class="content_title">I'M ADSAYA</p>
+
+                        <div data-aos="fade-up" data-aos-duration="1800">
+
+                            <p class="full_stack">
+                                I'm a Full-Stack Developer who enjoys building
+                                user-friendly digital experiences.
+                            </p>
+
+                        </div>
+
+                        <!-- DOWNLOAD CV BUTTON -->
+                        <button type="button"
+                            onclick="downloadCV()"
+                            class="download">
+
+                            <i class="fa-solid fa-download"></i>
+                            Download CV
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ABOUT ME SECTION -->
+    <div class="about_us" id="aboutme">
+
+        <div class="about_content one">
+
+            <div data-aos="fade-up" data-aos-duration="2000">
+
+                <p class="about_title">ABOUT ME</p>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="2000">
+
+                <p class="lorem_para">
+                    I’m a Full-Stack Developer with a passion for turning
+                    ideas into clean, efficient, and scalable digital
+                    experiences. I specialize in building end-to-end web
+                    applications — from crafting intuitive user interfaces
+                    to developing robust backend systems.
+                </p>
+
+                <p class="lorem_para2">
+                    I thrive in collaborative environments, love bringing
+                    designs to life with precision, and take pride in writing
+                    code that is maintainable and future-ready.
+                </p>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="500">
+
+                <button class="call">CONTACT ME</button>
+
+            </div>
+
+        </div>
+
+
+        <div data-aos="zoom-in-up">
+
+            <div class="about_content box">
+
+                <img src="./asserts/about-removebg-preview.png"
+                    alt="Adsaya Profile">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SKILLS SECTION -->
+    <div class="three">
+
+        <div class="skills">
+
+            <div data-aos="fade-up" data-aos-duration="2000">
+
+                <p class="skill_title">SKILLS</p>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="2000">
+
+                <p class="necessary">
+                    I have strong skills in HTML, CSS, and Bootstrap, Js,
+                    React and Python for building clean and responsive web designs.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="skills_grid">
+
+            <!-- HTML -->
+            <div data-aos="fade-up" data-aos-duration="2000">
+
+                <div class="skills_content">
+
+                    <span class="skill_icon white">
+                        <i class="fa-brands fa-html5"></i>
+                    </span>
+
+                    <p class="lorem_title white">HTML</p>
+
+                    <p class="lorem_grey white">
+                        Skilled in writing clean, semantic HTML to structure
+                        web pages effectively and ensure accessibility and
+                        SEO-friendly layouts.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CSS -->
+            <div data-aos="fade-up" data-aos-duration="1500">
+
+                <div class="skills_content">
+
+                    <span class="skill_icon white">
+                        <i class="fa-brands fa-css"></i>
+                    </span>
+
+                    <p class="lorem_title white">CSS</p>
+
+                    <p class="lorem_grey white">
+                        Experienced in creating responsive, modern UI designs
+                        with CSS, including Flexbox, Grid, animations,
+                        and custom styling.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- BOOTSTRAP -->
+            <div data-aos="fade-up" data-aos-duration="1000">
+
+                <div class="skills_content">
+
+                    <span class="skill_icon white">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </span>
+
+                    <p class="lorem_title white">BOOTSTRAP</p>
+
+                    <p class="lorem_grey white">
+                        Proficient in using Bootstrap to build fully responsive
+                        and mobile-friendly websites quickly with pre-built
+                        components and utilities.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- JAVASCRIPT -->
+            <div data-aos="fade-up" data-aos-duration="800">
+
+                <div class="skills_content">
+
+                    <span class="skill_icon white">
+                        <i class="fa-brands fa-node-js"></i>
+                    </span>
+
+                    <p class="lorem_title white">JAVASCRIPT</p>
+
+                    <p class="lorem_grey white">
+                        Strong understanding of JavaScript for adding
+                        interactive functionality, DOM manipulation,
+                        API integration, and dynamic UI behavior.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- REACT -->
+            <div data-aos="fade-up" data-aos-duration="1000">
+
+                <div class="skills_content">
+
+                    <span class="skill_icon white">
+                        <i class="fa-brands fa-react"></i>
+                    </span>
+
+                    <p class="lorem_title white">REACT</p>
+
+                    <p class="lorem_grey white">
+                        Hands-on experience in building component-based
+                        user interfaces using React, including state management,
+                        hooks, routing, and API handling.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- PYTHON -->
+            <div data-aos="fade-up" data-aos-duration="1000">
+
+                <div class="skills_content">
+
+                    <span class="skill_icon white">
+                        <i class="fa-brands fa-python"></i>
+                    </span>
+
+                    <p class="lorem_title white">PYTHON</p>
+
+                    <p class="lorem_grey white">
+                        Knowledgeable in Python for scripting, automation,
+                        backend development, and working with libraries
+                        for data processing and logic building.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- EDUCATION SECTION -->
+    <div class="education">
+
+        <div class="education_title">
+
+            <p class="edu_title">EDUCATION</p>
+
+        </div>
+
+
+        <div class="studies">
+
+            <!-- SCHOOL -->
+            <div class="education_grid">
+
+                <div class="school_image">
+
+                    <div class="school_content">
+
+                        <span class="school_icons">
+                            <i class="fa-solid fa-school"></i>
+                        </span>
+
+                        <div class="school_para">
+
+                            <p class="sec">SCHOOL</p>
+
+                            <p class="sec_name">[HSc]</p>
+
+                            <p class="sec_year">2021</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COLLEGE -->
+            <div class="education_grid">
+
+                <div class="college_image">
+
+                    <div class="school_content">
+
+                        <span class="school_icons">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </span>
+
+                        <div class="school_para">
+
+                            <p class="sec">COLLEGE</p>
+
+                            <p class="sec_name">Holy Cross College</p>
+
+                            <p class="sec_year">2022-2025</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COURSE -->
+            <div class="education_grid">
+
+                <div class="alo_image">
+
+                    <div class="school_content">
+
+                        <span class="school_icons">
+                            <i class="bi bi-laptop"></i>
+                        </span>
+
+                        <div class="school_para">
+
+                            <p class="sec">COURSE</p>
+
+                            <p class="sec_name">Full Stack</p>
+
+                            <p class="sec_year">Sep-2025-Apr-2026</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROJECT SECTION -->
+    <div class="project">
+
+        <div class="my">
+
+            <p class="project_title">MY PROJECT</p>
+
+        </div>
+
+
+        <div class="project_grid">
+
+            <div class="green">
+
+                <video controls>
+
+                    <source
+                        src="./asserts/WhatsApp Video 2026-11-06 at 4.23.52 PM.mp4"
+                        type="video/mp4">
+
+                </video>
+
+            </div>
+
+
+            <div class="green">
+
+                <p class="clothing_title">CLOTHING WEBSITE</p>
+
+                <p class="clothing_para">
+                    I designed and developed a fully responsive restaurant
+                    website using HTML and CSS. The site features a modern
+                    layout with smooth animations and transitions that enhance
+                    the user experience. The design focuses on visual appeal
+                    and usability, ensuring it looks great on all screen sizes
+                    — from mobile to desktop.
+                </p>
+
+
+                <div class="view_project">
+
+                    <div class="span_icons">
+
+                        <span class="big">
+                            <i class="fa-brands fa-github"></i>
+                        </span>
+
+                        <a href="https://github.com/adsayashyam-gif/"
+                            class="git">
+
+                            <p class="git_title">Github</p>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="span_icons">
+
+                        <span class="big">
+                            <i class="bi bi-camera-video-fill"></i>
+                        </span>
+
+                        <a href="https://clothing-website-jet-zeta.vercel.app/"
+                            class="git">
+
+                            <p class="git_title">Live View</p>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CONTACT SECTION -->
+    <div class="four">
+
+        <div class="main">
+
+            <div>
+
+                <p class="contact_title">
+                    <span>
+                        <i class="fa-regular fa-copyright"></i>
+                        CONTACT ME
+                    </span>
+                </p>
+
+            </div>
+
+
+            <div class="iconss">
+
+                <!-- PHONE -->
+                <span class="four_icons">
+
+                    <a href="tel:8148428778" target="_blank">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+
+                </span>
+
+
+                <!-- EMAIL -->
+                <span class="four_icons">
+
+                    <a href="mailto:adsayashyam@gmail.com" target="_blank">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+
+                </span>
+
+
+                <!-- LINKEDIN -->
+                <span class="four_icons">
+
+                    <a href="https://www.linkedin.com/in/%E1%B4%80%E1%B4%85%EA%9C%B1%E1%B4%80%CA%8F%E1%B4%80-%EA%9C%B1%CA%9C%CA%8F%E1%B4%8D-013735371?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                    </a>
+
+                </span>
+
+
+                <!-- GITHUB -->
+                <span class="four_icons">
+
+                    <a href="https://github.com/adsayashyam-gif/"
+                        target="_blank">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!-- DOWNLOAD CV SCRIPT -->
+    <script>
+
+        function downloadCV() {
+
+            const link = document.createElement("a");
+
+            link.href = "./asserts/ADSAYA A R.pdf";
+
+            link.download = "Adsaya_Resume.pdf";
+
+            document.body.appendChild(link);
+
+            link.click();
+
+            document.body.removeChild(link);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
