@@ -583,16 +583,17 @@
 
             const link = document.createElement("a");
 
-            link.href = "./asserts/ADSAYA A R.pdf";
+            // Exact PDF file path
+            link.href = "./asserts/Vivin%20Resume.pdf";
 
-            link.download = "Adsaya_Resume.pdf";
+            // Download with this filename
+            link.download = "Vivin Resume.pdf";
 
             document.body.appendChild(link);
 
             link.click();
 
             document.body.removeChild(link);
-
         }
 
     </script>
